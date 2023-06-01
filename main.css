@@ -1,25 +1,38 @@
-h1{
-    text-align:center ;
-    font-size: 80px;
-}
-body{
-    background-color:cadetblue;
-   
-}
-.board-container{
-    background-color: rgb(206, 202, 202);
-    border-style: solid;
-    border-color: black;
-    font-size: 40px;
-    cursor: pointer;
-    margin-left: auto;
-    margin-right: auto;
-    width: 35%;
-    padding: auto;
-}
-.board{
-    border-style: solid;
-    border-color: black;
-    padding: auto;
+body {
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+  }
   
-}
+  h1 {
+    text-align: center;
+    font-size: 36px;
+    margin: 20px 0;
+  }
+  h4 {
+    text-align: center;
+  }
+  
+  .board-container {
+    background-color: #ccc;
+    border: 1px solid black;
+    width: 250px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  
+  .cell {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    border: 1px solid #999;
+    background-color: #f0f0f0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  .cell:hover {
+    background-color: #e0e0e0;
+  }
